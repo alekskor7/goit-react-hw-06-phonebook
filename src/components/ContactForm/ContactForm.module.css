@@ -1,0 +1,29 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+}
+.input {
+  margin-left: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.button {
+  width: 80px;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
