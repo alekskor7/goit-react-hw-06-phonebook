@@ -2,6 +2,7 @@
   "name": "goit-react-hw-06-phonebook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alekskor7.github.io/goit-react-hw-06-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -14,6 +15,8 @@
     "react-scripts": "4.0.3",
     "react-uuid": "^1.0.2",
     "redux": "^4.1.2",
+    "redux-middleware": "^0.1.21",
+    "redux-persist": "^6.0.0",
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
@@ -23,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
